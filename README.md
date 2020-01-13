@@ -26,8 +26,11 @@ Another Arduino option is to use the [Mozzi synthesizer](https://sensorium.githu
 
 Moving to a Linux based synth opens a lot of doors in terms of quality.
 
-
 I've found that the [PADsynth algorithm](https://zynaddsubfx.sourceforge.io/doc/PADsynth/PADsynth.htm) by Nasca Paul is quite beautiful. It can be made polyphonic, and can be made continuous (each is a repeatable unit). Still I'm trying to figure out:
+
+- What kind of sounds can I get?
+
+There are a lot of things that can be done, especially in generating formants. For example, the simple chord uses the [following formant distribution](https://www.wolframalpha.com/input/?i=Plot%5Bexp%28-%28%28x*30.3-600.0%29%2F150.0%29%5E2.0%29%2Bexp%28-%28%28x*30.3-900.0%29%2F250.0%29%5E2.0%29%2Bexp%28-%28%28x*30.3-2200.0%29%2F200.0%29%5E2.0%29%2Bexp%28-%28%28x*30.3-2600.0%29%2F250.0%29%5E2.0%29%2Bexp%28-%28%28x*30.3%29%2F3000.0%29%5E2.0%29*0.1%2Cx%3D%5B0%2C256%5D%5D).
 
 - Can samples be swapped in the middle?
 - Should I pre-generate samples?
